@@ -1,0 +1,160 @@
+nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 1495px;
+	height: 50px;
+	background-color: #3b3b3b;
+	border:2px solid black;
+	border-color: #84ff00;
+	border-radius: 8px;
+	box-shadow: 2px 2px 4px #84ff00;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	color: #84ff00 ;
+	cursor: pointer;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all . 5s ease 0s;
+	border-radius: 8px;
+
+}
+a:nth-child(1){
+	width: 90px;
+}
+a:nth-child(2){
+	width: 110px;
+}
+
+a:nth-child(3){
+	width: 110px;
+}
+a:nth-child(4){
+	width: 110px;
+}
+a:nth-child(5){
+	width: 110px;
+}
+nav .start-home, a:ntf-child(1):hover ~ .animation {
+	width: 110px;
+	left: 0; 
+	background-color: #65ffd8;
+}
+nav .start-home, a:ntf-child(2):hover ~ .animation {
+	width: 110px;
+	left: 100px;
+	background-color: #65ffd8;
+}
+nav .start-home, a:ntf-child(3):hover ~ .animation {
+	width: 110px;
+	left: 210px;
+	background-color: #65ffd8;
+}
+nav .start-home, a:ntf-child(4):hover ~ .animation {
+	width: 110px;
+	''
+	left: 310px;
+	background-color: #65ffd8;
+}
+nav .start-home, a:ntf-child(5):hover ~ .animation {
+	width: 110px;
+	left: 470px;
+	background-color: #65ffd8;
+}
+*{
+
+    margin:0;
+
+    padding:0;
+
+}
+
+/* Задаем ширину меню */
+
+#menu{
+
+    width:210px;
+
+    margin:0px;
+
+}
+
+/* Стили для наших пунктов меню */
+
+#menu ul{
+
+    list-style:none;
+
+}
+
+#menu li{
+
+    list-style:none;
+
+    display:block;
+
+    line-height:32px;
+
+    height:32px;
+
+    margin:15px 1360px -150px;
+
+    width:206px;
+
+}
+
+#menu li a{
+
+    display:block;
+
+    height:33px;
+
+    text-transform:uppercase;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    line-height:32px;
+
+    padding:0 0 0 25px;
+
+    text-decoration:none;
+
+    color:#2c2c2c;
+
+    background: #6d6d6d;
+
+    border:solid 1px #2c2c2c;
+
+    -moz-border-radius:10px;
+
+    -webkit-border-radius:10px;
+
+    border-radius:10px;
+
+}
+
+  
+
+/* Подсветка наведденого пункта */
+
+#menu li a:hover{
+
+    background: #545557;
+
+    color:#84ff00;
+
+}
